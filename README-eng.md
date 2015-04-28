@@ -10,7 +10,7 @@ Test task requires to cover the given code under test with test case written in 
 
 #The code under test
 
-The given code is a function 'try_until' which is a part of a bigger project. The function takes one arbitrary argument 'func' (which is a certain unspecified function), one predefined argument 'interval' and a set of optional arguments.  Based on the provided specifications and the logic of the code itself, the function should produce the next results:
+The given code is a function 'try_until' which is a part of a bigger project. The function takes one arbitrary argument 'func' (which is a certain unspecified function), one predefined argument 'interval' and a set of optional arguments.  Based on the provided specifications and the logic of the code itself, the function should meet the next requirements:
 
  - continuously call the 'func' function while is raises unspecified 'exc.TryAgainError' exception
  - if the call of the 'func' produces any results, it should returns these results and stop iterations
